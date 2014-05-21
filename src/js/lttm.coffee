@@ -71,6 +71,12 @@ $("textarea").atwho
               imageUrl: v.image
               alt: "ミサワ"
           callback images
+      else if kind is "n"
+        callback [
+          name: 'https://d3j5vwomefv46c.cloudfront.net/photos/large/845635544.png'
+          imageUrl: 'https://d3j5vwomefv46c.cloudfront.net/photos/large/845635544.png'
+          alt: "@t_wada"
+        ]
 
 $(window).on 'keyup.atwhoInner', (ev) ->
   setTimeout ->
